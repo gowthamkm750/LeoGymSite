@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href=".\images\icons8-gym-16.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>LEO-GYM</title>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <header id="header">
+      <nav>
+        <h1>LEO-GYM</h1>
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#train">Trainers</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#bmi">BMI Calculator</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </nav>
+      <br />
+      <div class="text-box">
+        <h3>FITNESS</h3>
+        <h2>TRAINING</h2>
+        <h1>LEOGYM</h1>
+        <br />
+        <h1>Where Strength Meets Spirit</h1>
+        <p>
+          At Leo-Gym, we believe that fitness is not just about lifting weights
+          – it’s about lifting your spirit, building your strength, and creating
+          a healthier, more confident you. Whether you’re a fitness newbie or a
+          seasoned athlete, Leo-Gym is here to guide you on your journey to
+          reach your full potential.
+        </p>
+        <br />
+      </div>
+    </header>
+    <main>
+      <div class="p1">
+        <br /><br />
+        <h1>WHY <span>CHOOSE</span> US</h1>
+        <div class="fig">
+          <figure class="p11">
+            <img src="./images/u-1.png" />
+            <figcaption>QUALITY EQUIPMENT</figcaption>
+            <br />
+            <p>
+              We are dedicated to providing you with the highest quality
+              equipment to ensure that every workout is safe, effective, and
+              enjoyable.
+            </p>
+          </figure>
+          <figure class="p12">
+            <img src="./images/u-2.png" />
+            <figcaption>HEALTHY DIET PLAN</figcaption>
+            <br />
+            <p>
+              A balanced, nutritious diet is key to unlocking your full
+              potential. That’s why we offer tailored diet plans to complement
+              your training
+            </p>
+          </figure>
+          <figure class="p13">
+            <img src="./images/u-3.png" />
+            <figcaption>SPORT TRAINING</figcaption>
+            <br />
+            <p>
+              We offer sport-specific training programs designed to boost your
+              performance, improve endurance, and reduce injury risks.
+            </p>
+          </figure>
+          <figure class="p14">
+            <img src="./images/u-4.png" />
+            <figcaption>NUTRITION</figcaption>
+            <br />
+            <p>
+              We offer personalized nutrition guidance tailored to your unique
+              fitness journey.
+            </p>
+          </figure>
+        </div>
+      </div>
+      <div class="p2">
+        <br /><br />
+        <h1>HEALTHY MIND, HEALTHY BODY</h1>
+        <br />
+        <p>
+          At Leo-Gym, we believe that true fitness goes beyond just physical
+          strength. A healthy body starts with a healthy mind, and the two are
+          deeply connected. Regular exercise not only tones muscles and boosts
+          endurance but also helps reduce stress, improve mood, and sharpen
+          mental focus. Our holistic approach to fitness encourages members to
+          take care of their mental well-being alongside their physical goals.
+          Through mindful workouts, stress-relieving exercises, and a positive
+          community atmosphere, we help you cultivate both mental resilience and
+          physical vitality. Because when your mind is strong, your body
+          follows, and you achieve a balanced, healthier lifestyle.
+        </p>
+        <br /><br />
+      </div>
+      <section class="p3">
+        <br /><br />
+        <h1>OUR GYM TRAINERS</h1>
+        <br /><br />
+        <div class="trainer" id="train">
+          <figure>
+            <figcaption>Smirth Jon</figcaption>
+            <br />
+            <img src="./images/t1.jpg" alt="Smirth Jon" />
+          </figure>
+          <figure>
+            <figcaption>Jean Doe</figcaption>
+            <br />
+            <img
+              style="width: 400px; height: 400px"
+              src="./images/pexels-mralpha-10960029.jpg"
+              alt="Smirth Jon"
+            />
+          </figure>
+          <figure>
+            <figcaption>Alex Den</figcaption>
+            <br />
+            <img src="./images/t3.jpg" alt="Smirth Jon" />
+          </figure>
+        </div>
+        <br /><br />
+      </section>
+      <section class="p4">
+        <div class="im">
+          <img src="./images/contact-img.jpg" alt="Smirth Jon" />
+        </div>
+        <div class="contact" id="contacts">
+          <h1>BMI Calculator</h1>
+          <br />
+          <form id="bmi">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" required />
+            <br />
+            <label for="height">Height (m):</label>
+            <input type="number" id="height" required />
+            <br />
+            <input type="button" id="btn"  value="CalculateBMI" onclick="calculateBMI()" />
+            <h2 id="result"></h2>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer id="about">
+      <div class="container1">
+        <figure>
+          <a
+            href="https://www.google.com/maps/@13.0322797,80.2083255,16z/data=!4m2!7m1!2e1?entry=ttu&g_ep=EgoyMDI0MDkwOS4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            ><img src="./images/location-white.png"
+          /></a>
+          <figcaption>Location</figcaption>
+        </figure>
+        <figure>
+          <a href="tel:+91 1234567890">
+            <img src=".//images/telephone-white.png" />
+          </a>
+          <figcaption>+91 1234567890</figcaption>
+        </figure>
+        <figure>
+          <a href="mailto:gowtham@gmail.com"
+            ><img src="./images/envelope-white.png"
+          /></a>
+          <figcaption>gowtham@gmail.com</figcaption>
+        </figure>
+      </div>
+      <br />
+      <div class="container2">
+        <p>&copy; 2024 LEO-GYM . All Rights reserved.</p>
+        <p>Created by: Gowtham</p>
+      </div>
+    </footer>
+  </body>
+</html>
